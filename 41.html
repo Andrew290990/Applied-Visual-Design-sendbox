@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Задание-->
+    Note that ms stands for milliseconds, where 1000ms is equal to 1s.
+
+Use CSS @keyframes to change the background-color of the button element so it becomes #4791d0 when a user hovers over it. The @keyframes rule should only have an entry for 100%.
+<!--Тест-->
+<style>
+    button {
+      border-radius: 5px;
+      color: white;
+      background-color: #0F5897;
+      padding: 5px 10px 8px 10px;
+    }
+  
+    button:hover {
+      animation-name: background-color;
+      animation-duration: 500ms;
+    }
+    @keyframes background-color{
+      100%{
+        background-color: #4791d0;
+      }
+    }
+  
+  </style>
+  
+  <button>Register</button>
+      <div> // running tests</div>
+      <div>// tests completed</div>
+</body>
+</html>
